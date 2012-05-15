@@ -15,9 +15,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: phonebook2.0_development
+  database: phonebook2_0_development
   pool: 5
-  username: phonebook2.0
+  username: jamil
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -41,15 +41,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: phonebook2.0_test
+  database: phonebook2_0_test
   pool: 5
-  username: phonebook2.0
+  username: jamil
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: phonebook2.0_production
+  database: phonebook2_0_production
   pool: 5
-  username: phonebook2.0
+  username: jamil
   password:

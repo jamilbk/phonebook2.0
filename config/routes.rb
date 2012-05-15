@@ -1,4 +1,14 @@
 Phonebook20::Application.routes.draw do
+  resources :users
+
+  devise_for :users
+
+  root :to => 'users#index'
+
+  resources :groups
+
+  resources :contacts
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
